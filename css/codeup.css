@@ -23,6 +23,7 @@ nav a {
     top: 37px;
     z-index: -1000;
 }
+
 .circle {
     width: 100px;
     height: 100px;
@@ -56,16 +57,20 @@ nav .nav-item {
     position: relative;
     bottom: 6px;
 }
+.small-circles span{
+    position: relative;
+    top: 1px;
+}
 .sub-title {
     text-align: center;
     margin-top: 5em;
 }
 
+
 .red {background-color: var(--red);}
 .blue {background-color: var(--blue);}
 .yellow {background-color: var(--yellow);}
 .green {background-color: var(--green);}
-
 
 @media screen and (min-width: 768px) {
     .sub-title {margin-top: 2em;}
