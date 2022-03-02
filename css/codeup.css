@@ -1,3 +1,5 @@
+/*Start of Style For Nav bar and circle colors Using global color*/
+
 body {
     font-family: 'Abel', sans-serif;
     background: #f0f0f0;
@@ -9,6 +11,8 @@ body {
     --yellow: #EB9D3A;
     --blue: #00aba9;
 }
+/*:root can be useful for declaring global CSS variables*/
+
 nav a {
     font-size: .75em;
     color: black;
@@ -24,6 +28,15 @@ nav a {
     z-index: -1000;
 }
 
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+
+/*Ending For style on nav section*/
+
+
+/*Large Circles for nav bar*/
 .circle {
     width: 100px;
     height: 100px;
@@ -40,6 +53,18 @@ nav a {
 .circle h6 {
     margin: 0;
 }
+
+.red {background-color: var(--red);}
+.blue {background-color: var(--blue);}
+.yellow {background-color: var(--yellow);}
+.green {background-color: var(--green);}
+
+
+/*Ending of Style for large circles*/
+
+
+/*Small circles for images 4 div containers*/
+
 .small-circles {
     height: 18px;
     width: 18px;
@@ -49,28 +74,39 @@ nav a {
     font-family: 'Anton', sans-serif;
     margin-left: 1em;
 }
-.small-circles span{
+.small-circles span {
     position: relative;
     top: 1px;
 }
-nav .nav-item {
-    position: relative;
-    bottom: 6px;
-}
-.small-circles span{
-    position: relative;
-    top: 1px;
-}
-.sub-title {
-    text-align: center;
-    margin-top: 5em;
+
+/*Ending Style for Small circles*/
+
+/*Fixing Images sizing connected to HTML Invisible 100*/
+/*Start of Image Work Everything here effect Style of image*/
+
+.images-ipad {background-image: url("../imgs/assets/images/ipad.jpg")}
+.images-macs {background-image: url("../imgs/assets/images/macbook.jpg")}
+.images-man {background-image: url("../imgs/assets/images/man.jpg")}
+.images-security {background-image: url("../imgs/assets/images/security.jpg")}
+
+.Images {
+    max-width: 100%;
+    border: .5em solid #e6e6e6;
+    border-radius: 4px;
+    background-size: auto;
+
 }
 
+.small-Images {
+    border: .2em solid #e6e6e6;
+    border-radius: 1px;
+    background-size: auto;
+}
 
-.red {background-color: var(--red);}
-.blue {background-color: var(--blue);}
-.yellow {background-color: var(--yellow);}
-.green {background-color: var(--green);}
+/*End Of Image Style Work*/
+
+
+/*Breaking point for all Media in this Section */
 
 @media screen and (min-width: 768px) {
     .sub-title {margin-top: 2em;}
@@ -87,3 +123,5 @@ nav .nav-item {
     .custom-card {padding-right: 3em;}
     hr {width: 100%}
 }
+
+/*End Of Media Section*/
