@@ -26,8 +26,34 @@ body {
 .circle h6 {
     margin: 0;
 }
-
+.small-circles {
+    height: 20px;
+    width: 20px;
+    font-size:8px;
+    line-height: 18px;
+    margin-left: 1em;
+}
+.small-circles span{
+    position: relative;
+    top: 1px;
+}
 .red {background-color: var(--red);}
 .blue {background-color: var(--blue);}
 .yellow {background-color: var(--yellow);}
 .green {background-color: var(--green);}
+
+@media screen and (min-width: 768px) {
+    .sub-title {margin-top: 2em;}
+    hr {width: 55%}
+}
+
+@media screen and ( min-width: 992px){
+    .sub-title {text-align: left;}
+    hr{width: 100%}
+}
+
+@media screen and (min-width:1200px){
+    .wrapper .row {margin-top:3em;}
+    .custom-card {padding-right: 3em;}
+    hr {width: 100%}
+}
