@@ -9,7 +9,20 @@ body {
     --yellow: #EB9D3A;
     --blue: #00aba9;
 }
+nav a {
+    font-size: .75em;
+    color: black;
+}
 
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
 .circle {
     width: 100px;
     height: 100px;
@@ -42,6 +55,10 @@ body {
 nav .nav-item {
     position: relative;
     bottom: 6px;
+}
+.sub-title {
+    text-align: center;
+    margin-top: 5em;
 }
 
 .red {background-color: var(--red);}
