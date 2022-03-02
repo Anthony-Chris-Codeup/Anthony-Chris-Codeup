@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55b496f8-c4fe-4c58-b67a-bb956ab4fbc0" name="Changes" comment="" />
+    <list default="true" id="55b496f8-c4fe-4c58-b67a-bb956ab4fbc0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Anthony-Chris-Codeup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codeup.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/codeup.html" beforeDir="false" afterPath="$PROJECT_DIR$/codeup.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +54,7 @@
       <workItem from="1646233288590" duration="681000" />
       <workItem from="1646233992558" duration="246000" />
       <workItem from="1646234256584" duration="138000" />
-      <workItem from="1646234423245" duration="4714000" />
+      <workItem from="1646234423245" duration="5023000" />
     </task>
     <servers />
   </component>
