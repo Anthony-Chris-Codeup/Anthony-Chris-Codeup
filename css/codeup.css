@@ -7,7 +7,7 @@ body {
 }
 
 .wrapper {
-    max-width: 1100px;
+    max-width: 1500px;
     width: 100%;
     margin: 0 auto;
 }
@@ -61,9 +61,9 @@ nav a {
     font-size: .75em;
     color: black;
 }
-
+/*For nav Bar white area*/
 .nav-background {
-    position: absolute;
+    position: relative;
     margin: 0;
     padding: 0;
     height: 59px;
@@ -72,10 +72,6 @@ nav a {
     z-index: -1000;
 }
 
-nav .nav-item {
-    position: relative;
-    bottom: 6px;
-}
 
 /*Ending For style on nav section*/
 
