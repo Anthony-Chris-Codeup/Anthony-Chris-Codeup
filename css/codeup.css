@@ -57,10 +57,6 @@ h5 {
 
 /*:root can be useful for declaring global CSS variables*/
 
-nav a {
-    font-size: .75em;
-    color: black;
-}
 /*For nav Bar white area*/
 .nav-background {
     position: relative;
@@ -206,7 +202,7 @@ nav a {
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1450px) {
     .wrapper .row {
         margin-top: 3em;
     }
