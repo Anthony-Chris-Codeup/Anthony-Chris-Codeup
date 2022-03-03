@@ -1,8 +1,15 @@
-/*Start of Style For Nav bar and circle colors Using global color*/
+/*Start of Style For Nav bar and circle colors transp*/
 
 body {
     font-family: 'Abel', sans-serif;
-    background: #f0f0f0;
+    background: blanchedalmond;
+    /*Background color code is red*/
+}
+
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 :root {
@@ -11,6 +18,43 @@ body {
     --yellow: #EB9D3A;
     --blue: #00aba9;
 }
+
+/*Start of header and title styles*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+}
+
+h3 {
+    font-size: 2.5em;
+}
+
+h4 {
+    font-size: 2em;
+}
+
+h5 {
+    font-size: 1.75em;
+}
+
+.brand-name {
+    font-size: 1.75em;
+}
+
+/*End of title and header sizes */
+
 /*:root can be useful for declaring global CSS variables*/
 
 nav a {
@@ -35,6 +79,13 @@ nav .nav-item {
 
 /*Ending For style on nav section*/
 
+.tweet i {
+    font-size: 2em;
+    margin-right: .3em;
+    position: relative;
+    top: .4em;
+    color: rgb(27 160 239);
+}
 
 /*Large Circles for nav bar*/
 .circle {
@@ -43,7 +94,7 @@ nav .nav-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 5px solid white;
+    border: 5px solid black;
     border-radius: 50px;
     color: white;
     text-align: center;
@@ -54,10 +105,21 @@ nav .nav-item {
     margin: 0;
 }
 
-.red {background-color: var(--red);}
-.blue {background-color: var(--blue);}
-.yellow {background-color: var(--yellow);}
-.green {background-color: var(--green);}
+.red {
+    background-color: var(--red);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
+.yellow {
+    background-color: var(--yellow);
+}
+
+.green {
+    background-color: var(--green);
+}
 
 
 /*Ending of Style for large circles*/
@@ -74,6 +136,7 @@ nav .nav-item {
     font-family: 'Anton', sans-serif;
     margin-left: 1em;
 }
+
 .small-circles span {
     position: relative;
     top: 1px;
@@ -84,23 +147,35 @@ nav .nav-item {
 /*Fixing Images sizing connected to HTML Invisible 100*/
 /*Start of Image Work Everything here effect Style of image*/
 
-.images-ipad {background-image: url("../imgs/assets/images/ipad.jpg")}
-.images-macs {background-image: url("../imgs/assets/images/macbook.jpg")}
-.images-man {background-image: url("../imgs/assets/images/man.jpg")}
-.images-security {background-image: url("../imgs/assets/images/security.jpg")}
+.images-ipad {
+    background-image: url("../imgs/assets/images/ipad.jpg")
+}
 
-.Images {
+.images-macs {
+    background-image: url("../imgs/assets/images/macbook.jpg")
+}
+
+.images-man {
+    background-image: url("../imgs/assets/images/man.jpg")
+}
+
+.images-security {
+    background-image: url("../imgs/assets/images/security.jpg")
+}
+
+
+.images {
     max-width: 100%;
-    border: .5em solid #e6e6e6;
+    border: .5em solid black;
     border-radius: 4px;
     background-size: auto;
 
 }
 
-.small-Images {
-    border: .2em solid #e6e6e6;
+.small-images {
+    border: .2em solid black;
     border-radius: 1px;
-    background-size: auto;
+    background-size: 50%;
 }
 
 /*End Of Image Style Work*/
@@ -109,19 +184,41 @@ nav .nav-item {
 /*Breaking point for all Media in this Section */
 
 @media screen and (min-width: 768px) {
-    .sub-title {margin-top: 2em;}
-    hr {width: 55%}
+    .sub-title {
+        margin-top: 2em;
+    }
+
+    hr {
+        width: 55%
+    }
 }
 
-@media screen and ( min-width: 992px){
-    .sub-title {text-align: left;}
-    hr{width: 100%}
+@media screen and ( min-width: 992px) {
+    .sub-title {
+        text-align: left;
+    }
+
+    hr {
+        width: 100%
+    }
 }
 
-@media screen and (min-width:1200px){
-    .wrapper .row {margin-top:3em;}
-    .custom-card {padding-right: 3em;}
-    hr {width: 100%}
+@media screen and (min-width: 1200px) {
+    .wrapper .row {
+        margin-top: 3em;
+    }
+
+    .custom-card {
+        padding-right: 3em;
+    }
+
+    hr {
+        width: 100%
+    }
 }
 
 /*End Of Media Section*/
+
+
+/*https://designmodo.com/bootstrap-5-utilities/*/
+/*Bootstrap index keywords, proper usage*/
